@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: top_development
+  database: about_me_app_development
 
 test:
   <<: *default
-  database: top_test
+  database: about_me_app_test
 
 production:
   <<: *default
-  database: top_production
+  database: about_me_app_production
