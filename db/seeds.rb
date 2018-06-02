@@ -1,16 +1,17 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+3.times do |topic|
+  Topic.create!(
+    title: "Topic #{topic+2}"
+  )
+end
+
+puts "3 topics created"
 
 #10 times blog
 10.times do |blog|
   Blog.create!(
     title: "My blog title: #{blog+1}",
-    body: "My body: #{blog+1}"
+    body: "My body: #{blog+1}",
+    topic_id: Topic.first.id
   )
 end
 puts "10 blog posts created successfully"
@@ -35,3 +36,12 @@ puts "5 skills created successfully"
 end
 
 puts "9 portfolio items created successfully"
+
+3.times do |technology|
+    Portfolio.last.technologies.create!(
+      name: "Technology #{technology+1}"
+    )
+
+end
+
+puts "3 technologies created"
