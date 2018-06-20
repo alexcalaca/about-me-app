@@ -14,6 +14,7 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 
 group :development, :test do
   gem 'byebug'
+  gem 'pry-byebug'
 end
 
 group :development do
