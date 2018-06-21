@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 
 group :development, :test do
   gem 'byebug'
