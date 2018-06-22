@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/alexcalaca/ac_copyright_tool
+  revision: 69f74c836ec67ceb10e20a6b1a9a46942375a61d
+  specs:
+    ac_copyright_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -188,6 +194,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ac_copyright_tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.1.0)
