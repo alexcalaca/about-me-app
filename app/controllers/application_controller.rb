@@ -4,10 +4,4 @@ class ApplicationController < ActionController::Base
   include SetSource
   include CurrentUserConcern
   include DefaultPageContent
-  
-  before_action :set_copyright
-  
-  def set_copyright
-    @copyright = AcCopyrightTool::Renderer.copyright 'Alexandre Calaça', 'All rights reserved'
-  end
 end
