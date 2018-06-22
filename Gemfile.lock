@@ -1,12 +1,7 @@
-GIT
-  remote: https://github.com/alexcalaca/ac_copyright_tool
-  revision: 69f74c836ec67ceb10e20a6b1a9a46942375a61d
-  specs:
-    ac_copyright_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    ac_copyright_tool (0.1.0)
     actioncable (5.0.6)
       actionpack (= 5.0.6)
       nio4r (>= 1.2, < 3.0)
@@ -104,6 +99,8 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
+    petergate (1.8.1)
+      activerecord (> 4.0.0)
     pg (0.21.0)
     popper_js (1.12.9)
     pry (0.11.3)
@@ -194,7 +191,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ac_copyright_tool!
+  ac_copyright_tool (~> 0.1.0)
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.1.0)
@@ -202,6 +199,7 @@ DEPENDENCIES
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  petergate (~> 1.7)
   pg (~> 0.18)
   pry-byebug
   rails (= 5.0.6)
