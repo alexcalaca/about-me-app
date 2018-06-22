@@ -18,6 +18,6 @@ module ApplicationHelper
   end
   
   def copyright_generator
-    @copyright = ACCopyrightTool::Renderer.copyright 'Alexandre Calaça', 'All rights reserved'
+    @copyright = AcCopyrightTool::Renderer.copyright 'Alexandre Calaça', 'All rights reserved'
   end
 end
