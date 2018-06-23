@@ -14,11 +14,10 @@
   
   <%= render "shared/navbar", location: 'top' %>
   
-  <%= login_helper %>
+  <%= login_helper 'nav-link'%>
 
   <%= yield %>
   
   <%= source_helper("portfolio") %>
-
 </body>
 </html>
