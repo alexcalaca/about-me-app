@@ -13,17 +13,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <p class="alert"><%= notice %></p>
-  <p class="notice"><%= alert %></p>
   
-  <%= render "shared/navbar", location: 'top' %>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
   
-  <%= login_helper %>
-
-  <%= yield %>
+        <%= render "shared/application_nav" %>
+        <%= login_helper %>
+        <%= yield %>
+        <%= copyright_generator %>
+        <%= source_helper("application") %>
+      </div>
+    </div>
+  </div>
   
-  <%= copyright_generator %>
-  
-  <%= source_helper("application") %>
 </body>
 </html>
