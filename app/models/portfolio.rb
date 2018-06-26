@@ -11,6 +11,10 @@ class Portfolio < ApplicationRecord
     where(title: "My")
   end
   
+  def self.by_position
+    order("position ASC")
+  end
+  
   def self.angular
     where(subtitle: 'Angular')
   end
