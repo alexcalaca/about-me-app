@@ -18,3 +18,4 @@
 
 # I don't want my secrets to be shared
 /config/secrets.yml
+.env
