@@ -26,6 +26,7 @@ gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
 gem 'mini_magick', '~> 4.6'
 gem 'carrierwave', '~> 1.0'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
+gem 'cocoon', '~> 1.2', '>= 1.2.9'
 
 group :development, :test do
   gem 'byebug'
