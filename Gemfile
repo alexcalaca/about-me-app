@@ -29,6 +29,7 @@ gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1'
+gem 'redis', '~> 4.0', '>= 4.0.2'
 
 group :development, :test do
   gem 'byebug'
