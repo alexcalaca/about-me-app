@@ -34,6 +34,7 @@ gem 'redis', '~> 4.0', '>= 4.0.2'
 group :development, :test do
   gem 'byebug'
   gem 'pry-byebug'
+  gem 'puma'
 end
 
 group :development do
